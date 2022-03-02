@@ -7,6 +7,36 @@ body{
     background-color: #F3F1FF;
 }
 
+/* header part */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+}
+.idea-part{
+    display: flex;
+    align-items: center;
+}
+.idea-part img{
+    width: 40px;
+    height: 50px;
+    color: white;
+}
+.idea-part>h3{
+    margin-left: 16px;
+}
+.link-part{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.link-part a{
+    text-decoration: none;
+    margin-right: 36px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
 main{
     display: flex;
     flex-direction: column;
